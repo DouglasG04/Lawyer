@@ -1,2 +1,4 @@
 D:\DOCUMENTS\2023\PERSONAL\Sela\angularapp\obj\Debug\angularapp.esproj.SuggestedBindingRedirects.cache
 D:\DOCUMENTS\2023\PERSONAL\Sela\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache
+D:\DOCUMENTS\2023\PERSONAL\Sela\Lawyer\angularapp\obj\Debug\angularapp.esproj.SuggestedBindingRedirects.cache
+D:\DOCUMENTS\2023\PERSONAL\Sela\Lawyer\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache

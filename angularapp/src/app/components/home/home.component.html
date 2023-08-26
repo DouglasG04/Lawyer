@@ -1,0 +1,73 @@
+<header>
+    <nav class="nav-desktop md:block">
+        <ul class="flex flex-row justify-between items-center px-5 py-5">
+            <li class="nav-item-navigation hidden md:flex ">
+                <a href="#services"
+                    class="mx-2 hover:text-[var(--darkBrown)] hover:ease-in hover:duration-[0.3s] font-semibold">Servicios</a>
+                <a href="#degrees"
+                    class="mx-2 hover:text-[var(--darkBrown)] hover:ease-in hover:duration-[0.3s] font-semibold">Títulos</a>
+                <a href="#contact"
+                    class="mx-2 hover:text-[var(--darkBrown)] hover:ease-in hover:duration-[0.3s] font-semibold">Contacto</a>
+
+            </li>
+            <li class="nav-item-company">
+                <p class="text-2xl">Sela Solutions</p>
+            </li>
+            <li class="hidden md:flex space-x-4 items-center">
+                <a *ngFor="let i of socialMedia" [href]="i.link" target="_blank">
+                    <fa-icon [icon]="i.icon"
+                        class="text-[22px] mx-2 hover:text-[var(--darkBrown)] font-bold hover:ease-in hover:duration-[0.3s]"></fa-icon>
+                </a>
+            </li>
+            <li class="md:hidden">
+
+                <fa-icon [icon]="hamburgerMenu" (click)="handleShowMenu()"
+                    class="text-[22px] mx-2 hover:cursor-pointer"></fa-icon>
+            </li>
+        </ul>
+    </nav>
+
+    <nav *ngIf="statusHamburgerMenu"
+        class="nav-mobile bg-[var(--ligtBrown)] md:hidden absolute top-0 right-0 w-[300px] h-[100%] z-10 animate__animated animate__fadeInRight"
+        [ngClass]="{'animate__fadeInRight': statusHamburgerMenu, 'animate__fadeOut': !statusHamburgerMenu}">
+
+        <fa-icon [icon]="closeMenu" class="absolute top-[10px] right-[10px] text-[20px] hover:cursor-pointer"
+            (click)="handleHideMenu()">
+        </fa-icon>
+
+        <ul class="flex flex-col justify-center items-center mt-[70px]">
+            <li class="flex flex-col text-center">
+                <a href="#services"
+                    class="py-2 hover:text-[var(--darkBrown)] hover:ease-in hover:duration-[0.3s] font-semibold  text-[19px]">Servicios</a>
+                <a href="#degrees"
+                    class="py-2  hover:text-[var(--darkBrown)] hover:ease-in hover:duration-[0.3s] font-semibold text-[19px]">Títulos</a>
+                <a href="#contact"
+                    class="py-2  hover:text-[var(--darkBrown)] hover:ease-in hover:duration-[0.3s] font-semibold text-[19px]">Contacto</a>
+            </li>
+            <li class="flex flex-row justify-center items-center space-x-4 mt-[50px]">
+                <a *ngFor="let i of socialMedia" [href]="i.link" target="_blank">
+                    <fa-icon [icon]="i.icon"
+                        class="text-[40px] mx-2 hover:text-[var(--darkBrown)] font-bold hover:ease-in hover:duration-[0.3s]"></fa-icon>
+                </a>
+            </li>
+
+            <li class="flex flex-row justify-center mt-[50px]">
+                <a href="#contact" class="px-[15px] py-[5px] bg-white text-[20px]">Reserva una cita</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section class="bg-[var(--smoothBrown)] md:h-[92vh]">
+    <div class="lg:grid lg:grid-cols-2 grid-cols-1 flex flex-col-reverse lg:items-center mx-10">
+        <div class="flex flex-col justify-start lg:w-[75%]">
+            <h1 class="md:text-[90px] text-[60px] font-bold leading-[95px]">Marisela González Ortiz</h1>
+            <p class="lg:pl-2 py-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora modi quaerat
+                pariatur
+                dignissimos quos assumenda maxime dolores quae cumque sed neque exercitationem voluptatibus optio
+                necessitatibus fuga alias facilis, veritatis vitae.</p>
+        </div>
+        <div class="relative bg-center bg-cover bg-no-repeat h-[92vh] bg-[url('assets/img/lawyer-men2.jpg')]">
+        </div>
+    </div>
+</section>

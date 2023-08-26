@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\webapi\\webapi.csproj": {}
+    "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\Lawyer\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\webapi\\webapi.csproj": {
+    "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\Lawyer\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\webapi\\webapi.csproj",
+        "projectUniqueName": "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\Lawyer\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\webapi\\webapi.csproj",
+        "projectPath": "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\Lawyer\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\dg367\\.nuget\\packages\\",
-        "outputPath": "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\webapi\\obj\\",
+        "outputPath": "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\Lawyer\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dg367\\AppData\\Roaming\\NuGet\\NuGet.Config",

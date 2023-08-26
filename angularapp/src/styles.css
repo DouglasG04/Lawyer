@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --boneLight: #edede9;
+    --ligtBrown: #d6ccc2;
+    --smoothBrown: #ede0d4;
+    --darkBrown: #7f5539;
+}
+
+body{
+    font-family: 'Signika Negative', sans-serif;
+    background-color: var(--boneLight);
+}
+
+.form-control {
+    border: solid 1px grey !important;
+    width: 100%;
+    height: 36px;
+    border-radius: 5px !important;
+    font-size: medium;
+    padding: 10px;
+    color: darkgrey;
+    font-weight: 400;
+}

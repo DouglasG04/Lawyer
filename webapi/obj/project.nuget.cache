@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E0SyfKCTQep+hxE9Mi16xDJmFPIsMEC/WA8NXxuWU/GO1dbkjg8j1u7x7YdJ1dGjzQO7mTJwPP0mpQ9XWW4JwQ==",
+  "dgSpecHash": "CLscKHwGBVSIijjWZtGgNEdt9cEdHQbNF/CZ+PZJuSOGx5R+zisg5b33an/9D+TauLVjarBhO7DAlYedbbbJ8w==",
   "success": true,
-  "projectFilePath": "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\webapi\\webapi.csproj",
+  "projectFilePath": "D:\\DOCUMENTS\\2023\\PERSONAL\\Sela\\Lawyer\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dg367\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
     "C:\\Users\\dg367\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
